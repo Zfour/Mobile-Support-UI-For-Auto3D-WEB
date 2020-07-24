@@ -104,11 +104,11 @@
          <option class=" btnhy1 " value="0">ミルクカートン1000ml</option>
          <option class=" btnhy2 " value="1">ミルクカートン500ml</option>
         </select>-->
-<ul class=" btn-group-vertical buttonList" role="group" aria-label="..." id="packageSelect " name="packageSelect" size="5" onclick="packageSelectOnClick()">
+<div class=" btn-group-vertical buttonList" role="group" aria-label="..." id="packageSelect " name="packageSelect" size="5" onclick="packageSelectOnClick()">
   <li  type="button"  class="btn btn-default btnhy1 active" value="0">ミルクカートン500ml</li>
   <li  type="button"   class="btn btn-default btnhy2 " value="1">ミルクカートン1000ml</li>
   
-</ul>
+</div>
 <!--<select id="packageSelect" name="packageSelect" size="2" onclick="packageSelectOnClick()">
          <option value="0">ミルクカートン1000ml</option>
          <option value="1">ミルクカートン500ml</option>
@@ -491,7 +491,7 @@ $(".btnhy2").click(function() {
  $("#milk500").hide();
 });</script>
 <script>
-$('ul.buttonList li').on('click',function(e){
+$('.buttonList li').on('click',function(e){
     $(this).addClass("active").siblings().removeClass("active");
 })
  $('#image2').hide();
