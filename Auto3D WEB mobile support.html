@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/ZFE/Desktop/Auto3D%20WEB%20newui.html -->
+<html lang="ja-JP"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Auto3D WEB</title>
+  <link rel="stylesheet" href="./Auto3D WEB mobile support_files/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="./Auto3D WEB mobile support_files/auto3d.css" type="text/css">
+  <link rel="stylesheet" href="./Auto3D WEB mobile support_files/index.php" type="text/css">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>.form-control:focus {
+    border-color: #a0a0ff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(160, 160, 255, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(160, 160, 255, 0.6);
+}
+  .bg-info {
+    background-color: #a0a0ff33;
+}
+  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #a0a0ff;
+    border-color: #c5c5ff;
+}
+  .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #a0a0ff;
+    border-color: #c5c5ff;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-image: none;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #a0a0ff;
+    border-color: #c5c5ff;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #7474fb;
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #7474fb;
+    border-color: #c5c5ff;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #7474fb;
+    text-decoration: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #7474fb;
+    border-color: #c5c5ff;
+	.btn.focus, .btn:focus, .btn:hover {
+    color: #7474fb;
+    text-decoration: none;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #7474fb;
+    text-decoration: none;
+}
+
+	</style>
+ </head>
+
+ <body>
+  <div class="container-fluid">
+
+   <h1>Auto3D WEB</h1>
+
+   <div align="right">ようこそ！<u>499984532@qq.com</u> さん <span style=""><a href="https://www.mdd-creative.com/auto3d/logout.php">［ログアウト］</a></span></div>
+   <div align="right"><a href="https://www.mdd-creative.com/contact.html" target="_new">［お問い合わせ］</a><span style=""><a href="https://www.mdd-creative.com/index.html" target="_new">［MDDｸﾘｴｲﾃｨﾌﾞHP］</a></span></div>
+   
+<br>
+   <div class="row">
+
+    <div class="  col-lg-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+                  <b>          1.パッケージの種類を選択 </b></div>
+     <div class="panel-body row">
+      
+      <div class="col-sm-12">
+    
+ <div class="text-center">
+ <select id="packageSelect " name="packageSelect" size="2" onclick="packageSelectOnClick()">
+         <option class=" btnhy1 " value="0">ミルクカートン1000ml</option>
+         <option class=" btnhy2 " value="1">ミルクカートン500ml</option>
+        </select>
+ <!--<div class=" btn-group " role="group" aria-label="..." id="packageSelect " name="packageSelect" size="5" onclick="packageSelectOnClick()">
+  <a data-toggle="tab" type="button"  class="btn btn-default btnhy1 " value="0">ミルクカートン500ml</a>
+  <a data-toggle="tab" type="button"   class="btn btn-default btnhy2 " value="1">ミルクカートン1000ml</a>
+  
+</div>-->
+<!--<select id="packageSelect" name="packageSelect" size="2" onclick="packageSelectOnClick()">
+         <option value="0">ミルクカートン1000ml</option>
+         <option value="1">ミルクカートン500ml</option>
+        </select>-->
+		
+
+</div>
+
+       <div class="col-sm-12">
+           
+
+       
+        
+        <br>
+       </div>
+       <div class="col-sm-12">
+	   
+        <div id="readme_container"><table class="table">
+
+ <tbody><tr>
+
+  <td valign="top" class="col-sm-12">
+
+   <img id="image1" src="./Auto3D WEB mobile support_files/packageMilk500.jpg" width="100%" height="auto">
+<img id="image2"  src="./Auto3D WEB mobile support_files/packageMilk1000.jpg" width="100%" height="auto">
+  </td>
+ </tr>
+<tr>
+  <td id="milk500" valign="top" class="col-sm-12">
+
+  <h4><b>ミルクカートン500ml</b></h4><br>デザイン展開画像は、余白なしでトリミングし、JPGで保存します。<br>展開画像は、２つのタイプがありますのでどちらかを選択します。<br><br>
+
+  ■タイプ１：デザイン正面が左から１面、３面（TetraPak等）<br>■タイプ２：デザイン正面が左から２面、４面（日本製紙等）</td>
+  <td id="milk1000" valign="top" class="col-sm-12">
+
+  <h4><b>ミルクカートン1000ml</b></h4><br>デザイン展開画像は、余白なしでトリミングし、JPGで保存します。<br>展開画像は、２つのタイプがありますのでどちらかを選択します。<br><br>
+
+  ■タイプ１：デザイン正面が左から１面、３面（TetraPak等）<br>■タイプ２：デザイン正面が左から２面、４面（日本製紙等）</td>
+
+ </tr>
+
+</tbody></table>
+
+</div>
+</div>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-lg-4">
+    <div class="panel panel-default">
+     <div class="panel-heading">
+                            <b>2.詳細設定</b></div>
+<div class="panel-body row">
+<form>
+    
+      
+      <div id="setting_container" class="form-group col-sm-12">
+
+ <label type="hidden" name="パッケージタイプ" value="9020">
+ 
+ パッケージ名:
+ 
+ </label>
+ 
+ 
+ <br>
+ 
+   <input class="form-control" name="パッケージ名">
+ 
+ <br>
+ <label type="hidden" name="パッケージタイプ" value="9020">
+ 
+ デザインタイプ:
+ 
+ </label>
+  
+    
+    <br>
+ 
+   <select class="form-control" name="デザインタイプ">
+    <option value="1">１.タイプ１(正面:1&amp;3面)</option>
+    <option value="2">２.タイプ２(正面:2&amp;4面)</option>
+   </select>
+ 
+ 
+  <input type="hidden" name="pass_code" value="134266524354222">
+  
+    <br>
+   <label type="hidden" name="パッケージタイプ" value="9020">
+ 
+    デザイン選択:
+ 
+ </label>
+<br>
+    <input accept="image/jpg,image/JPG,image/jpeg,image/JPEG" name="image_front" id="showPreview1" type="file"><br>
+   
+<p class="bg-info"> ※JPEG画像</p>
+
+  
+ 
+ <br>
+ <script type="text/javascript">
+  $('#showPreview1').on('change', function (e) {
+      var reader = new FileReader();
+      reader.onload = function (e) {
+	  $("#preview1").css('width', '240px');
+          $("#preview1").attr('src', e.target.result);
+      }
+      reader.readAsDataURL(e.target.files[0]);
+  });
+ </script>
+
+</div>
+      <img id="preview1" style="width: 0px;">
+      <img id="preview2" style="width: 0px;">
+     </form></div>
+    </div>     </div>
+
+    <div class="col-lg-4">
+    <div class="panel panel-default">
+    <div class="panel-heading"><b>3.3DCG 計算</b></div>
+     <div class="form-group">
+      
+        <label class="text-center alert alert-warning col-xs-12">プレビューが表示されたら計算終了<br>※所要時間:通常30秒～1分</label><br>
+       
+       <br><br>
+      <div style="text-align:center">
+       <button type="button" class="btn btn-primary" id="startAuto3D" onclick="startAuto3DOnClick()" style="font-size:1.2em">計算開始</button>
+       <br>
+       <img id="thumbnail" src="./Auto3D WEB mobile support_files/blank.png">
+      </div>
+     </div></div>
+ 
+     <div class="panel panel-default">
+      <div class="panel-heading"><b>4.保存</b></div>
+<label class="text-center alert alert-warning col-xs-12">
+
+      画像データ１式（zip）をダウンロード<br>※回せる3D画像(Smart3D.html)はzip解凍後に閲覧可</label><br><br><br>
+      <div style="text-align:center">
+       <button type="button" class="btn btn-primary" id="saveImage" onclick="saveImageOnClick()" style="font-size:1.2em" disabled="disabled">保存</button>
+      </div>
+      <br>
+     </div>
+         </div>
+
+   </div>
+
+  </div>
+
+  <footer class="footer">
+   <div class="container">
+    <div style="text-align:center;">Copyright © 2020 MDD Creative All Rights Reserved.</div>
+   </div>
+  </footer>
+
+ 
+
+ <script type="text/javascript" src="./Auto3D WEB mobile support_files/bootstrap.min.js"></script>
+ <script type="text/javascript" src="./Auto3D WEB mobile support_files/jquery-1.11.0.js"></script>
+ <script type="text/javascript" src="./Auto3D WEB mobile support_files/adapter.js"></script>
+ <script type="text/javascript" src="./Auto3D WEB mobile support_files/zip.js"></script>
+ <script type="text/javascript">
+
+  var downloadUrl  = "";
+  var downloadData = null;
+
+  window.onload = function()
+  {
+    selectPackage(0);
+
+    $('#saveImage').attr('disabled', true);
+
+    zip.workerScriptsPath = './js/';
+  }
+
+  function packageSelectOnClick()
+  {
+    selectPackage($('#packageSelect').val());
+    $("#preview1").css('width', '0px');
+    $("#preview2").css('width', '0px');
+  }
+
+  function startAuto3DOnClick()
+  {
+    var err = '';
+     if ($('input[name="パッケージ名"]').val() == '')
+      err += "・パッケージ名が空です。\n";
+    if ($('input[name="image_front"]').val() == '')
+      err += "・デザイン画像が未指定です。\n";
+
+    if (err != '') {
+      alert(err);
+      reutrn;
+    }
+
+    $('#startAuto3D').attr('disabled', true);
+    $('#saveImage').attr('disabled', true);
+    $('#thumbnail').attr('width', '24px');
+    $('#thumbnail').attr('height', '24px');
+    $('#thumbnail').attr('src', './progress.gif');
+
+    var formData = new FormData();  //($('#conditionForm').get()[0]);
+
+    formData.append('pass_code', $('input[name="pass_code"]').val());
+
+    if ($('input[name="image_front"]').val() !== undefined && $('input[name="image_front"]').val() !== '')
+      formData.append('image_front', $('input[name="image_front"]').prop("files")[0]);
+
+    if ($('input[name="image_back"]').val() !== undefined && $('input[name="image_back"]').val() !== '')
+      formData.append('image_back', $('input[name="image_back"]').prop("files")[0]);
+
+    if ($('input[name="image_design"]').val() !== undefined && $('input[name="image_design"]').val() !== '')
+      formData.append('image_design', $('input[name="image_design"]').prop("files")[0]);
+
+    formData.append('condition', encodeURI(makeCondition()));
+
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', "https://mdd-creative2.com/auto3d.php", true);
+    xhr.responseType = 'blob';
+    xhr.onload = function(e)
+    {
+      if (xhr.status == 200)
+      {
+        downloadData = xhr.response;
+        if (downloadData.size < 500)
+          serverError();
+
+        zip.createReader(new zip.BlobReader(downloadData), function(reader)
+        {
+          reader.getEntries(function(entries)
+          {
+            for(i = 0; i < entries.length; ++i)
+            {
+              if (entries[i].filename.indexOf("Preview.jpg") == -1)
+                continue ;
+
+              entries[i].getData(new zip.Data64URIWriter("image/jpeg"), function(data)
+              {
+                $('#thumbnail').attr('width', '60%');
+                $('#thumbnail').attr('height', '60%');
+                $('#thumbnail').attr('src', data);
+                reader.close(function() {});
+              });
+
+              break;
+            }
+          });
+        }, function(error) {});
+      }
+      else
+        serverError();
+
+      $('#saveImage').attr('disabled', false);
+      $('#startAuto3D').attr('disabled', false);
+    };
+    xhr.ontimeout = function()
+    {
+      if ($('#thumbnail').attr('src') == './progress.gif')
+        serverError();
+
+      $('#saveImage').attr('disabled', false);
+      $('#startAuto3D').attr('disabled', false);
+    }
+
+    xhr.send(formData);
+  }
+
+  function saveImageOnClick()
+  {
+     if (window.navigator.msSaveBlob)
+     {
+       window.navigator.msSaveBlob(downloadData, "auto3d.zip");
+     }
+     else
+     {
+       if (downloadUrl !== "")
+         (window.URL || window.webkitURL).revokeObjectURL(downloadUrl);
+       downloadUrl = (window.URL || window.webkitURL).createObjectURL(downloadData);
+
+       let link = document.createElement('a');
+       link.setAttribute("type", "hidden");
+       link.download = "auto3d.zip";
+       link.href = downloadUrl;
+       document.body.appendChild(link);
+       link.click();
+       link.remove();
+     }
+  }
+
+  function selectPackage(packageIndex)
+  {
+    var packageReadme = 'package'+packageIndex+'_readme.html';
+    var packageSetting = 'package'+packageIndex+'_setting.html';
+    $('#readme_container').load(packageReadme);
+    $('#setting_container').load(packageSetting);
+  }
+
+  function makeCondition()
+  {
+    var cond = '';
+    cond += '変数名,値\r\n';
+
+    cond += "UserId,";
+    cond += "499984532@qq.com";
+    cond += "\r\n";
+
+    cond += "パッケージタイプ,";
+    cond += $('input[name="パッケージタイプ"]').val();
+    cond += "\r\n";
+
+    cond += "パッケージ名,";
+    cond += $('input[name="パッケージ名"]').val();
+    cond += "\r\n";
+
+    cond += appendCondition("幅");
+    cond += appendCondition("高さ");
+    cond += appendCondition("奥行き");
+    cond += appendCondition("幅・奥行き比率");
+    cond += appendCondition("ギザギザ大きさ");
+    cond += appendCondition("ヘッダ長さ");
+    cond += appendCondition("シール幅１");
+    cond += appendCondition("シール幅２");
+    cond += appendCondition("シール幅３");
+    cond += appendCondition("明るさ");
+    cond += appendCondition("デザインタイプ", "select");
+
+    return cond;
+  }
+
+  function appendCondition(type, tag_name="input")
+  {
+    var cond = "";
+    cond += type+",";
+    if ($(tag_name+'[name='+type+']').val() === undefined || $(tag_name+'[name='+type+']').val() === '')
+      cond += "0";
+    else
+      cond += $(tag_name+'[name='+type+']').val();
+    cond += "\r\n";
+    return cond;
+  }
+
+  function getType(v)
+  {
+    return Object.prototype.toString.call(v);
+  }
+
+  function serverError()
+  {
+    alert("サーバーが応答しません。");
+    $('#thumbnail').attr('width', '10px');
+    $('#thumbnail').attr('height', '10px');
+    $('#thumbnail').attr('src', './blank.png');
+  }
+
+ </script>
+ <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+
+
+<script >
+
+$(".btnhy1").click(function() {
+ //alert("111")
+
+ $("#image1").show();
+ $("#image2").hide();
+ $("#milk500").show();
+ $("#milk1000").hide();
+ 
+});
+$(".btnhy2").click(function() {
+ //alert("222")
+
+ $("#image2").show();
+ $("#image1").hide();
+ $("#milk1000").show();
+ $("#milk500").hide();
+});</script>
+<script>
+
+ $('#image2').hide();
+ $('#milk1000').hide();
+</script>
+</body></html>
